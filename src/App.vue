@@ -1,13 +1,16 @@
 <template>
+  <Call/>
   <Greet/>
 </template>
 
 <script>
 import Greet from './components/Greet.vue';
+import Call from './components/Call.vue';
 export default {
   name: 'App',
   components :{
     Greet,
+    Call
   }
 }
 </script>
