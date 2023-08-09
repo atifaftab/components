@@ -1,20 +1,23 @@
 <template>
-  <Greet name="Bruce"/>
-  <Call name="flash"/>
+  <Greet :name="name"/>
+  <CallIn :hero="hero"/>
 
 </template>
 
 <script>
 import Greet from './components/Greet.vue';
-import Call from './components/Call.vue';
+import CallIn from './components/CallIn.vue';
 export default {
   name: 'App',
   components :{
     Greet,
-    Call
+    CallIn
   },
   data(){
-
+    return{
+      name : 'bruce',
+      hero : 'Thor'
+    }
   }
 }
 </script>
