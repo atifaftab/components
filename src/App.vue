@@ -1,11 +1,14 @@
 <template>
-  <h2>Hi</h2>
+  <Greet/>
 </template>
 
 <script>
+import Greet from './components/Greet.vue';
 export default {
   name: 'App',
- 
+  components :{
+    Greet,
+  }
 }
 </script>
 
