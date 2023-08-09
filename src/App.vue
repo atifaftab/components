@@ -1,6 +1,7 @@
 <template>
-  <Call/>
-  <Greet/>
+  <Greet name="Bruce"/>
+  <Call name="flash"/>
+
 </template>
 
 <script>
@@ -11,6 +12,9 @@ export default {
   components :{
     Greet,
     Call
+  },
+  data(){
+
   }
 }
 </script>
