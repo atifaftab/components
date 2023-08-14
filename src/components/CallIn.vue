@@ -10,7 +10,9 @@
     props : ['hero']
   }
 </script>
-
+export default{
+  
+}
 <style>
 
 </style>
