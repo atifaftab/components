@@ -1,5 +1,5 @@
 <template>
-  <Greet :name="name"/>
+  <Greet :name="name" :heroName/>
   <CallIn :hero="hero"/>
 
 </template>
@@ -16,7 +16,8 @@ export default {
   data(){
     return{
       name : 'bruce',
-      hero : 'Thor'
+      hero : 'Thor',
+      batman : 'BATMAN'
     }
   }
 }
