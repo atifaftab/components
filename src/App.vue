@@ -17,7 +17,8 @@ export default {
     return{
       name : 'bruce',
       hero : 'Thor',
-      batman : 'BATMAN'
+      batman : 'BATMAN',
+      newHero : 'Spiderman'
     }
   }
 }
