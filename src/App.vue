@@ -18,7 +18,8 @@ export default {
       name : 'bruce',
       hero : 'Thor',
       batman : 'BATMAN',
-      newHero : 'Spiderman'
+      newHero : 'Spiderman',
+      hero1 : 'Flash'
     }
   }
 }
